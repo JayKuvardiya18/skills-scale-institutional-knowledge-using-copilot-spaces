@@ -1,11 +1,26 @@
-```markdown
-# OctoAcme Project Management — Overview
+# OctoAcme Project Management Documentation
 
-This folder contains OctoAcme's project management process documents. These guidelines are intended to make cross-functional delivery predictable, transparent, and repeatable by defining who does what, how decisions are made, and how we validate quality before shipping.
+## Overview of Project Management Processes
 
-OctoAcme uses a lightweight, staged lifecycle: Initiation (one-pager, stakeholder alignment), Planning (backlog, estimates, Definition of Done), Execution (iterative delivery using project boards and small PRs), Release (deployment checklist, smoke tests, rollback plan), and Close & Retrospective (capture learnings and action items). Work is tracked on a project board with columns such as Backlog, Ready, In Progress, In Review, QA, and Done; acceptance criteria are attached to backlog items and PRs to ensure alignment.
+OctoAcme uses a transparent, structured approach to project management that supports the delivery of cross-functional product initiatives. Projects begin with a lightweight planning process, starting with a one-pager that frames problems, goals, metrics, stakeholders, timelines, and risks. These are moved through a defined lifecycle—initiation, planning, execution, release, and retrospective—each governed by specific deliverables and checklists to ensure clarity and accountability across the organization.
 
-Key personas are clearly defined to maintain ownership and accountability: Product Managers (define outcomes and success metrics), Project Managers (coordinate delivery, schedule, and risk), Developers (implement, test, document), QA/Testers (validate acceptance criteria and perform manual testing when required), and Stakeholders (provide inputs and approvals). This role clarity reduces single-person dependencies and helps with faster decision-making.
+Teams rely on distinct, well-defined core roles: Project Managers, Product Managers, Developers, QA/Testers, and Stakeholders, each with documented responsibilities and communication routines. Project Managers facilitate delivery and keep all stakeholders aligned; Product Managers set priorities and measure outcomes; Developers and QA/Testers ensure quality implementation; and Stakeholders provide feedback and approval at key gates. Collaboration is reinforced with daily standups, weekly syncs, and monthly stakeholder updates, helped by documented escalation and feedback paths.
 
-Communication is multi-channel and cadence-driven: daily standups for the delivery team, weekly syncs between PM and Product, monthly stakeholder updates, and ad-hoc escalations. Quality assurance is a mix of automated and manual practices: unit and integration tests required for new logic, CI-enforced linting and security scans, end-to-end smoke tests for critical flows, and manual QA where acceptance criteria call for it. The docs in this folder provide detailed templates, checklists, and playbooks to support these workflows.
-```
+Work is delivered in iterative, shippable increments tracked in GitHub Project boards and managed via a pull request process emphasizing small, testable changes. Automated CI pipelines and manual QA practices ensure every release meets high standards, while deployment is guided by release checklists and rollback protocols for reliability. Progress and risks are actively tracked, with metrics surfaced in dashboards for transparency.
+
+Continuous improvement is fundamental: retrospectives at the end of sprints, releases, or incidents foster an open feedback culture, converting lessons learned into action items tracked until completion. Documentation, templates, and well-articulated workflows help new contributors quickly get up to speed and maintain consistent project execution standards.
+
+## Documentation Index
+
+Find the detailed OctoAcme process documentation in these files:
+
+- [Project Management Overview](octoacme-project-management-overview.md)
+- [Project Initiation Guide](octoacme-project-initiation.md)
+- [Project Planning](octoacme-project-planning.md)
+- [Execution & Tracking](octoacme-execution-and-tracking.md)
+- [Risk Management & Communication](octoacme-risks-and-communication.md)
+- [Release & Deployment Guide](octoacme-release-and-deployment.md)
+- [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md)
+- [Roles and Personas](octoacme-roles-and-personas.md)
+
+_If new process documents are added, please update this index to maintain a clear entry point for all contributors._
