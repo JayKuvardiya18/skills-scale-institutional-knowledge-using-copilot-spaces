@@ -1,15 +1,11 @@
-# OctoAcme Project Management Processes
+```markdown
+# OctoAcme Project Management — Overview
 
-This repository standardizes OctoAcme’s project management practices, making them easily accessible for onboarding, collaboration, and continuous improvement.
+This folder contains OctoAcme's project management process documents. These guidelines are intended to make cross-functional delivery predictable, transparent, and repeatable by defining who does what, how decisions are made, and how we validate quality before shipping.
 
-## Overview
+OctoAcme uses a lightweight, staged lifecycle: Initiation (one-pager, stakeholder alignment), Planning (backlog, estimates, Definition of Done), Execution (iterative delivery using project boards and small PRs), Release (deployment checklist, smoke tests, rollback plan), and Close & Retrospective (capture learnings and action items). Work is tracked on a project board with columns such as Backlog, Ready, In Progress, In Review, QA, and Done; acceptance criteria are attached to backlog items and PRs to ensure alignment.
 
-OctoAcme utilizes a transparent and structured approach to project management, guiding initiatives through lifecycle stages: initiation, planning, execution, release, and retrospective. Projects start with a concise one-pager that defines goals, stakeholders, success metrics, and key risks, then progress according to deliverable checklists to ensure consistency.
+Key personas are clearly defined to maintain ownership and accountability: Product Managers (define outcomes and success metrics), Project Managers (coordinate delivery, schedule, and risk), Developers (implement, test, document), QA/Testers (validate acceptance criteria and perform manual testing when required), and Stakeholders (provide inputs and approvals). This role clarity reduces single-person dependencies and helps with faster decision-making.
 
-Key roles include Project Manager, Product Manager, Developers, QA/Testers, and Stakeholders, each with well-defined responsibilities. The Project Manager orchestrates communication and risk management, while the Product Manager defines outcomes and backlog priorities. Developers contribute to implementation and quality, with QA/Testers ensuring criteria are met before release. Work is tracked on GitHub Projects boards, and features move through a PR process that stresses small, reviewable changes and automated CI validation.
-
-Project quality is maintained through extensive unit, integration, and end-to-end smoke tests, as well as security scanning and manual acceptance QA. Communication is frequent and multi-channeled: daily standups, weekly team syncs, and regular stakeholder updates, with risks reviewed and escalated via clear paths.
-
-Continuous improvement is fostered through structured retrospectives after milestones and incidents, capturing action items and lessons learned, and evolving the process documentation over time.
-
-For more details, refer to the specific guides in this folder.
+Communication is multi-channel and cadence-driven: daily standups for the delivery team, weekly syncs between PM and Product, monthly stakeholder updates, and ad-hoc escalations. Quality assurance is a mix of automated and manual practices: unit and integration tests required for new logic, CI-enforced linting and security scans, end-to-end smoke tests for critical flows, and manual QA where acceptance criteria call for it. The docs in this folder provide detailed templates, checklists, and playbooks to support these workflows.
+```
