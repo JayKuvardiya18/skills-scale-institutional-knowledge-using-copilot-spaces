@@ -10,17 +10,3 @@ Work is delivered in iterative, shippable increments tracked in GitHub Project b
 
 Continuous improvement is fundamental: retrospectives at the end of sprints, releases, or incidents foster an open feedback culture, converting lessons learned into action items tracked until completion. Documentation, templates, and well-articulated workflows help new contributors quickly get up to speed and maintain consistent project execution standards.
 
-## Documentation Index
-
-Find the detailed OctoAcme process documentation in these files:
-
-- [Project Management Overview](octoacme-project-management-overview.md)
-- [Project Initiation Guide](octoacme-project-initiation.md)
-- [Project Planning](octoacme-project-planning.md)
-- [Execution & Tracking](octoacme-execution-and-tracking.md)
-- [Risk Management & Communication](octoacme-risks-and-communication.md)
-- [Release & Deployment Guide](octoacme-release-and-deployment.md)
-- [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md)
-- [Roles and Personas](octoacme-roles-and-personas.md)
-
-_If new process documents are added, please update this index to maintain a clear entry point for all contributors._
